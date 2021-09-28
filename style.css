@@ -1,0 +1,191 @@
+/* Default Css */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.fixed{
+    width: 1270px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+/* Header */
+.header{
+    background-color: #1faf92;
+    color: white;
+    padding: 15px 0;
+}
+.header-left{
+    float: left;
+}
+.header-left h1{}
+.header-right{
+    float: right;
+}
+.header-right ul{}
+.header-right ul li{
+    display: inline-block;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 20px;
+    display: block;
+    line-height: 38px;
+}
+
+/* Banner Section */
+.banner{
+    background: url(https://i.ibb.co/bB1d0Dr/header-bg01.jpg) no-repeat center;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    color: white;
+}
+.banner h1{
+    font-size: 40px;
+}
+.banner p{
+    margin-top: 10px;
+}
+.banner a{
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Service Section */
+.service{
+    padding: 100px 0;
+    color: rgba(34, 34, 34, 0.849);
+    border-bottom: 2px solid #0dbf9b;
+}
+.service h2{
+    font-size: 30px;
+} 
+.service p{
+    margin-top: 5px;
+}
+.service-item{
+    width: 20%;
+    float: left;
+    margin-right: 63px;
+    padding: 150px 0;
+    
+}
+.service-item span{
+    color: #0dbf9b;
+    font-size: 35px;
+}
+.service-item h3{
+    margin-top: 30px;
+}
+.service-item p{}
+
+/* About Section */
+.about-section{
+    padding: 50px 0;
+    color: rgba(34, 34, 34, 0.918);
+}
+.about{
+    padding: 60px 0;   
+}
+.about h2{
+   
+    font-size: 27px;
+}
+.about p{
+    margin-top: 15px;
+}
+
+.about-item{
+    padding: 100px 0;
+}
+.about-left{
+float: left;
+width: 50%;
+}
+.about-left img{
+height: 300px;
+
+}
+.about-right{
+float: right;
+width: 50%;
+}
+.about-right h3{
+
+    font-size: 20px;
+    margin-top: 20px;
+}
+.about-right p{
+
+}
+
+/* Contact Section */
+.contact{
+    background-color: rgba(221, 221, 221, 0.431);
+    padding: 50px;
+    color: #222;
+}
+.contact h3{
+
+    font-size: 25px;
+}
+.contact P{
+
+    margin-top: 10px;
+}
+.contact-item{
+ float: left;
+ width: 33.3%;
+ margin-top: 75px;
+}
+.contact-item span{
+    color: #0dbf9b;
+}
+.contact-item p{}
+
+/* Footer Section */
+.footer{
+
+    background: #0dbf9b;
+    padding: 25px 0;
+}
+.footer ul{
+
+}
+.footer ul li{
+
+    display: inline-block;
+}
+.footer ul li a{
+
+    color: white;
+    display: inline-block;
+    padding: 0px 8px;
+    font-size: 20px;
+}
+
+
